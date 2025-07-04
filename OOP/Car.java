@@ -33,4 +33,20 @@ public class Car {
         return model ;
     }
 
+    public static void main(String[] args) {
+    
+        System.out.println(" \n ----- Car ----- \n");
+
+        Car car1 = new Car();
+        car1.setName("BMW");
+        System.out.println(car1.getName());
+
+        Car car2 = new Car();
+        car2.setName("Mercedes");
+        car2.setModel(2023);
+        System.out.println(car2.getName());
+        System.out.println(car2.getModel());
+
+          
+    }
 }

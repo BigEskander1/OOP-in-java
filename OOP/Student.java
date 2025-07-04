@@ -5,6 +5,11 @@ class Student{
     static int count = 1 ; // to be Common to them
     static  String college = "IT College" ; // static variable to store the name of the college
   
+      // static block
+    static{
+        System.out.println("From static block");
+    }
+    
     public Student( String name){
         this.id = count++ ; // to give unique id
         this.name = name ;
@@ -28,6 +33,22 @@ class Student{
         public void display(){
             System.out.println("Inner Class");
         }
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(" \n ----- Student ----- \n");
+
+        Student student1 = new Student("John");
+        Student student2 = new Student("fady");
+        Student student3 = new Student("bob");
+
+        System.out.println(student1.toString());
+        System.out.println(student2.toString());
+        System.out.println(student3.toString());
+        // static class
+        Student.InnerClass innerClass = new Student.InnerClass();
+        innerClass.display();
     }
 
 }

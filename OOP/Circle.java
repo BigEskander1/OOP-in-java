@@ -35,4 +35,17 @@ public class Circle {
         return "Circle has [radius=" + radius + ", color=" + color + "]";
     }
 
+    public static void main(String[] args) {
+        System.out.println(" \n ----- Circle ----- \n");
+        Circle circle1 = new Circle();
+        circle1.setRadius(10);
+        circle1.setColor("Red");
+        
+        System.out.println(circle1.getRadius());
+        System.out.println(circle1.getColor());
+        System.out.println(circle1.getArea());
+        System.out.println(circle1.getCircumference());
+        System.out.println(circle1.toString());
+    }
+    
 }

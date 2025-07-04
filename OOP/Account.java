@@ -42,5 +42,19 @@ public class Account {
                 + balance + "]";
     }
 
-    
+    public static void main(String[] args) {
+            System.out.println(" \n ----- Account ----- \n");
+
+            Account account1 = new Account("1234", 1000.0 );
+            System.out.println(account1.toString());
+
+            Account account2 = new Account(12345, 1200.0);
+            System.out.println(account2.toString());
+
+            // use copy constructor
+            Account account3 = new Account(account1);
+            System.out.println(account3.toString());
+
+    }
+ 
 }
