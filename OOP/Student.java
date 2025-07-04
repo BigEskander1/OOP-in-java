@@ -20,6 +20,14 @@ class Student{
     //like math methed we use Math.PI without create object
     static void changeCollege(String newCollege){
         college = newCollege ;
+        // we can't use non static variable in static method 
+        // we should  create object inside static method
+    }
+
+    public static class InnerClass{
+        public void display(){
+            System.out.println("Inner Class");
+        }
     }
 
 }

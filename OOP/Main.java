@@ -1,4 +1,9 @@
 public class Main {
+
+    // static block
+    static{
+        System.out.println("From static block");
+    }
     public static void main(String[] args) {
 
         System.out.println(" \n ----- Car ----- \n");
@@ -45,6 +50,9 @@ public class Main {
         System.out.println(student1.toString());
         System.out.println(student2.toString());
         System.out.println(student3.toString());
-        
+
+        Student.InnerClass innerClass = new Student.InnerClass();
+        innerClass.display();
+    
     }
 }
