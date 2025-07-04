@@ -17,7 +17,7 @@ The goal is to demonstrate **Encapsulation**, **Inheritance**, **Polymorphism**,
   → Understand **constructors**, including multiple constructor types (overloading).
 
 - **`Student` Class**  
-  → Learn and practice the use of the **`static` keyword** (static variables and static methods).
+  → Learn and practice the use of the **`static` keyword** (static variables , static methods , static Block and static class ).
 
 - **`Passing` Class**  
   → Learn about passing by value , passing by reference.
