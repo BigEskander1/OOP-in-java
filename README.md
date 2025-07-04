@@ -19,6 +19,9 @@ The goal is to demonstrate **Encapsulation**, **Inheritance**, **Polymorphism**,
 - **`Student` Class**  
   → Learn and practice the use of the **`static` keyword** (static variables and static methods).
 
+- **`Passing` Class**  
+  → Learn about passing by value , passing by reference.
+
 ---
 
 ## 📁 Structure
